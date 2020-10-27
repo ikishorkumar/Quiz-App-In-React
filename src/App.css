@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+h1{
+    color: #255825e8;
+    text-shadow: 0 5px rgba(233, 233, 233, 0.959);
+}
+
+h4{
+  font: fantasy;
+}
+button{
+  width: 200px;
+  padding: 12px;
+  font-family:Roboto, 'Helvetica Neue', sans-serif;
+  font-size: 24px;
+  color: white;
+  background-color: rgba(8, 131, 8, 0.815);
+  box-shadow: 0 5px 10px rgb(145, 146, 145);
+  margin-bottom: 8px;
+  font-weight: 600;
+  border-radius: 20px;
+  transition: 0.3s;
+  border: 2px solid ;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+}
+
+button:hover{
+  background-color: rgba(5, 88, 5, 0.815);
+  box-shadow: 0 3px 10px rgb(75, 77, 75);
+  padding-right: 25px;
+
+}
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(10px);
+}
+p{
+  color: white;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 2px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: rgb(46, 46, 46);
+  padding: 10px;
+  border-radius: 10px;
+}
